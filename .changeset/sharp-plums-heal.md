@@ -1,5 +1,0 @@
----
-"@coso/hello": patch
----
-
-test
