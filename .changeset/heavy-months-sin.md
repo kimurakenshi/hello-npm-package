@@ -1,0 +1,5 @@
+---
+"@kimurakenshi/world": patch
+---
+
+sd
