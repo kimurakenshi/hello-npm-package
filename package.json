@@ -1,10 +1,11 @@
 {
   "name": "@kimurakenshi/hello-npm-package",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Just a hello world for publishing an npm library with svelte",
   "main": "index.js",
   "scripts": {
-    "publish": "npm run build",
+    "build": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
