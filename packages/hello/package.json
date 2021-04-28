@@ -1,5 +1,5 @@
 {
-  "name": "@kimurakenshi/hello",
+  "name": "@kimurakenshi/hello-npm-package",
   "version": "1.0.2",
   "type": "module",
   "files": [
