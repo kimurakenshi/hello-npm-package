@@ -1,9 +1,10 @@
 {
-  "name": "hello-npm-package",
+  "name": "@kimurakenshi/hello-npm-package",
   "version": "0.0.1",
   "description": "Just a hello world for publishing an npm library with svelte",
   "main": "index.js",
   "scripts": {
+    "publish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,11 @@
     "@rollup/plugin-node-resolve": "^11.2.1",
     "rollup": "^2.45.2"
   },
+  "files": [
+    "assets",
+    "dist",
+    "types"
+  ],
+  "types": "types/index.d.ts",
   "type": "module"
 }
