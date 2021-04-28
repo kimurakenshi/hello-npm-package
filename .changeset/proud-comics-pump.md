@@ -1,5 +1,0 @@
----
-"@kimurakenshi/hello": patch
----
-
-sf
