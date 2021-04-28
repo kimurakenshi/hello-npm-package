@@ -1,0 +1,27 @@
+{
+  "name": "hello-npm-package",
+  "version": "0.0.1",
+  "description": "Just a hello world for publishing an npm library with svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimurakenshi/hello-npm-package.git"
+  },
+  "author": "Sebastian Giraudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimurakenshi/hello-npm-package/issues"
+  },
+  "homepage": "https://github.com/kimurakenshi/hello-npm-package#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.16.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "rollup": "^2.45.2"
+  },
+  "type": "module"
+}
