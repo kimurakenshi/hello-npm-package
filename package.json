@@ -4,8 +4,8 @@
   "description": "Just a hello world for publishing an npm library with svelte",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Error: no test specified\" && exit 1",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm build",
+    "test": "pnpm test",
     "changeset": "pnpx changeset",
     "bump": "pnpx changeset version",
     "install": "pnpm install",
