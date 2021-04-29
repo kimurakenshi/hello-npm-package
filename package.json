@@ -4,11 +4,10 @@
   "description": "Just a hello world for publishing an npm library with svelte",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm build",
+    "build": "pnpm build --filter=\"@kimurakenshi/*\"",
     "test": "pnpm test",
     "changeset": "pnpx changeset",
     "bump": "pnpx changeset version",
-    "install": "pnpm install",
     "release": "pnpm publish -r"
   },
   "repository": {
