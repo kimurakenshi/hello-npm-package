@@ -1,5 +1,11 @@
 # @kimurakenshi/hello-npm-package
 
+## 1.0.7
+
+### Patch Changes
+
+- dfbe90f: remove dit
+
 ## 1.0.6
 
 ### Patch Changes
