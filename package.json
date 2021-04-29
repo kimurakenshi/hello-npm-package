@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "changeset": "pnpx changeset",
     "bump": "pnpx changeset version",
-    "release": "pnpm publish"
+    "install": "pnpm install",
+    "release": "pnpm publish -r"
   },
   "repository": {
     "type": "git",

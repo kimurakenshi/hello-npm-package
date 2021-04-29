@@ -8,6 +8,9 @@ importers:
     devDependencies:
       '@changesets/cli': 2.16.0
 
+  packages/hello-world:
+    specifiers: {}
+
 packages:
 
   /@babel/code-frame/7.12.13:
@@ -707,8 +710,8 @@ packages:
       ci-info: 2.0.0
     dev: true
 
-  /is-core-module/2.2.0:
-    resolution: {integrity: sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==}
+  /is-core-module/2.3.0:
+    resolution: {integrity: sha512-xSphU2KG9867tsYdLD4RWQ1VqdFl4HTO9Thf3I/3dLEfr0dbPTWKsuCKrgqMljg4nPE+Gq0VCnzT3gr0CyBmsw==}
     dependencies:
       has: 1.0.3
     dev: true
@@ -1099,7 +1102,7 @@ packages:
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
     dependencies:
-      is-core-module: 2.2.0
+      is-core-module: 2.3.0
       path-parse: 1.0.6
     dev: true
 
