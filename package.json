@@ -22,10 +22,5 @@
   "homepage": "https://github.com/kimurakenshi/hello-npm-package#readme",
   "devDependencies": {
     "@changesets/cli": "^2.16.0"
-  },
-  "files": [
-    "dist",
-  ],
-  "types": "types/index.d.ts",
-  "type": "module"
+  }
 }
