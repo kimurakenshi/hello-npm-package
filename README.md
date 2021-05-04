@@ -2,7 +2,10 @@
 
 A hello world example of how to publish [npm](https://www.npmjs.com/) packages to the [npm registry](https://www.npmjs.com/) using
 a monorepo with [pnpm](https://pnpm.io/) as the package manager and [@changesets/cli](https://github.com/atlassian/changesets/tree/main/packages/cli)  to manage the versioning 
-and changelog entries for your packages.
+and changelog entries for your packages. 
+
+This repository is focus on the process of setting up the main structure and workflow for
+manging and publishing packages following a monorepo approach without going to deep in implementation details.  
 
 ## Requirements
 
@@ -56,5 +59,6 @@ There is a script in the main `package.json` that is basically that takes care o
 1. Run `pnpm release` to publish all packages that have bumped versions not yet present in the registry.
 
 
-
+> You can install [hello-npm-package](https://www.npmjs.com/package/@kimurakenshi/hello-npm-package) to see the result
+of publishing this package.
 
