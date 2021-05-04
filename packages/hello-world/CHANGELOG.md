@@ -1,5 +1,11 @@
 # @kimurakenshi/hello-npm-package
 
+## 1.0.9
+
+### Patch Changes
+
+- 44c4060: Minor adjustments to the docs
+
 ## 1.0.8
 
 ### Patch Changes
