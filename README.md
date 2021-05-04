@@ -40,11 +40,11 @@ This package is scoped to my npm username as you can see in `packages/hello-worl
 
 There is a script in the main `package.json` that is basically that takes care of one particular step of the release process.
 
-1. Once you have make changes that you want to include in a changeset just run `pnpm run changeset`.
-1. Run `pnmp run bump` to bump the versions of the packages previously specified with `changeset`.
+1. Once you have make changes that you want to include in a changeset just run `pnpm changeset`.
+1. Run `pnpm bump` to bump the versions of the packages previously specified with `changeset`.
 1. Run `pnpm install` to update the lockfile and rebuild packages.
 1. Commit the changes.
-1. Run `pnpm run release` to publish all packages that have bumped versions not yet present in the registry.
+1. Run `pnpm release` to publish all packages that have bumped versions not yet present in the registry.
 
 
 
