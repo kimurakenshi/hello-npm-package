@@ -1,5 +1,11 @@
 # @kimurakenshi/hello-npm-package
 
+## 1.0.8
+
+### Patch Changes
+
+- 469e125: Add a readme file
+
 ## 1.0.7
 
 ### Patch Changes
