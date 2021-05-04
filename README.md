@@ -36,6 +36,15 @@ This package is scoped to my npm username as you can see in `packages/hello-worl
 
 > Replace `@kimurakenshi` with your npm username or organization to test this out.
  
+1. `hello-world` package has a simple build command that generates a `dist` folder with the content of `packages/hello-world/src` and
+define the content that needs to be published using [files](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#files) in `packages/hello-world/package.json`:
+
+```json
+"files": [
+  "dist"
+],
+```
+ 
 ## How to release changes
 
 There is a script in the main `package.json` that is basically that takes care of one particular step of the release process.
